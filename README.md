@@ -1,2 +1,2 @@
 [ibrahimemiraydin.github.io](https://ibrahimemiraydin.github.io/)
-URL olarak yapıştırıp siteye gidin sol üstte mouse kordinatlarınızı göreceksiniz.
+Github'un bize sunduğu bu sitede html css ile oluşturduğum sitemi ziyaret edebilirsiniz.
