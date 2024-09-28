@@ -17,6 +17,7 @@ body{
     margin: auto;  
 }
 
+
 /* header start */
 
 header{
@@ -29,13 +30,21 @@ header nav{
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    padding-left: 20px;
-    padding-right: 50px;
     background-color: rgba(0, 0, 0, 0.322);
+    padding-inline-start: 255px;
+    padding-inline-end: 25px;
 }
 
-header nav .logo{
-    margin-top: 8px;
+header nav .logo a{
+
+    font-size: 32px;
+    color: #ffffffef;
+    text-decoration: none;
+    justify-content: left;
+    text-shadow: 3px 2px 1px #0000008c;
+    background-color: rgba(255, 255, 255, 0.185);
+    padding: 12px 24px;
+    border-radius: 54px;
 }
 
 nav ul{
@@ -47,6 +56,7 @@ nav ul{
 nav ul a{
     color: white;
     text-decoration: none;
+    text-shadow: 3px 2px 1px #00000056;
     transition: color .25s ease;
 }
 
@@ -59,7 +69,10 @@ nav ul a:hover{
 nav .menu{
     display: flex;
     align-items: center;
-    column-gap: 80px;
+    column-gap: 50px;
+    background-color: rgba(0, 0, 0, 0.103);
+    padding: 10px 20px;
+    border-radius: 54px;
 }
 
 nav .menu .menu-button{
